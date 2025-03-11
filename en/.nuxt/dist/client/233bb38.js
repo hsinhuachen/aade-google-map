@@ -390,7 +390,7 @@
 			var n = o(43)((function(i) {
 				return i[1]
 			}));
-			n.push([t.i, "@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+TC&family=Red+Hat+Display:wght@300&display=swap);"]), n.push([t.i, ".google-map{position:relative;left:calc(50% - 50vw);margin-bottom:40px;width:100vw;height:400px}@media(min-width:1200px){.google-map{left:unset;margin-bottom:50px;width:100%;height:600px}}.google-map__map-container{position:relative;width:100%;height:100%}.google-map__map-container__google-main-map{position:absolute!important;top:0;bottom:0;right:0;left:0;margin:auto;width:100%;height:100%;z-index:0}.google-map__map-container__zoom-box{position:absolute;bottom:20px;right:20px;z-index:10}.google-map__map-container__zoom-box .zoom-button{display:flex;align-items:center;justify-content:center;margin-bottom:5px;width:40px;height:40px;font-size:1rem;color:#fff;background-color:#444;cursor:pointer}", ""]), n.locals = {}, t.exports = n
+			n.push([t.i, "@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+TC&family=Red+Hat+Display:wght@300&display=swap);"]), n.push([t.i, ".ratio-21x9 {padding-bottom: 42.85%} .ratio{position: relative;width: 100%;margin-bottom: 60px}.ratio>* {position: absolute; top: 0; left: 0; width: 100%; height: 100%;} .ratio::before{ display: block; padding-top: var(--bs-aspect-ratio); content: “”;}", ""]), n.locals = {}, t.exports = n
 		},
 		515: function(t, e, o) {
 			var content = o(547);
@@ -414,189 +414,12 @@
 							}
 						}
 					},
-					data: function() {
-						return {
-							map: null,
-							google: null,
-							map_start: !1,
-							mapResizeTimer: null,
-							centerMarker1: null,
-							map_styles: [{
-								featureType: "water",
-								elementType: "geometry",
-								stylers: [{
-									color: "#e9e9e9"
-								}, {
-									lightness: 17
-								}]
-							}, {
-								featureType: "landscape",
-								elementType: "geometry",
-								stylers: [{
-									color: "#f5f5f5"
-								}, {
-									lightness: 20
-								}]
-							}, {
-								featureType: "road.highway",
-								elementType: "geometry.fill",
-								stylers: [{
-									color: "#ffffff"
-								}, {
-									lightness: 17
-								}]
-							}, {
-								featureType: "road.highway",
-								elementType: "geometry.stroke",
-								stylers: [{
-									color: "#ffffff"
-								}, {
-									lightness: 29
-								}, {
-									weight: .2
-								}]
-							}, {
-								featureType: "road.arterial",
-								elementType: "geometry",
-								stylers: [{
-									color: "#ffffff"
-								}, {
-									lightness: 18
-								}]
-							}, {
-								featureType: "road.local",
-								elementType: "geometry",
-								stylers: [{
-									color: "#ffffff"
-								}, {
-									lightness: 16
-								}]
-							}, {
-								featureType: "poi",
-								elementType: "geometry",
-								stylers: [{
-									color: "#f5f5f5"
-								}, {
-									lightness: 21
-								}]
-							}, {
-								featureType: "poi.park",
-								elementType: "geometry",
-								stylers: [{
-									color: "#dedede"
-								}, {
-									lightness: 21
-								}]
-							}, {
-								elementType: "labels.text.stroke",
-								stylers: [{
-									visibility: "on"
-								}, {
-									color: "#ffffff"
-								}, {
-									lightness: 16
-								}]
-							}, {
-								elementType: "labels.text.fill",
-								stylers: [{
-									saturation: 36
-								}, {
-									color: "#333333"
-								}, {
-									lightness: 40
-								}]
-							}, {
-								elementType: "labels.icon",
-								stylers: [{
-									visibility: "off"
-								}]
-							}, {
-								featureType: "transit",
-								elementType: "geometry",
-								stylers: [{
-									color: "#f2f2f2"
-								}, {
-									lightness: 19
-								}]
-							}, {
-								featureType: "administrative",
-								elementType: "geometry.fill",
-								stylers: [{
-									color: "#fefefe"
-								}, {
-									lightness: 20
-								}]
-							}, {
-								featureType: "administrative",
-								elementType: "geometry.stroke",
-								stylers: [{
-									color: "#fefefe"
-								}, {
-									lightness: 17
-								}, {
-									weight: 1.2
-								}]
-							}],
-							resizeFunc: null
-						}
-					},
+					data: {},
 					mounted: function() {
-						this.google = window.google, this.start_map(), this.resizeFunc = this.resize.bind(this), window.addEventListener("resize", this.resizeFunc)
 					},
 					beforeDestroy: function() {
-						window.removeEventListener("resize", this.resizeFunc)
 					},
 					methods: {
-						start_map: function() {
-							this.map_start = !0;
-							var t = {
-								center: new this.google.maps.LatLng(25.091, 121.5379),
-								zoom: 10.6,
-								mapTypeControl: !1,
-								scaleControl: !1,
-								streetViewControl: !1,
-								rotateControl: !1,
-								fullscreenControl: !1,
-								scrollwheel: !1,
-								mapTypeId: this.google.maps.MapTypeId.ROADMAP,
-								styles: this.map_styles,
-								text: "off",
-								zoomControl: !1
-							};
-							this.zoom = 10.6, this.map = new this.google.maps.Map(this.$refs.googleMainMap, t), this.restart_icon(), this.map_start = !1
-						},
-						clean_map: function() {
-							this.map = null
-						},
-						Zoom_out: function() {
-							1 != +this.zoom && (this.map.setZoom(this.zoom - 1), this.zoom = this.zoom - 1, this.restart_icon())
-						},
-						restart_icon: function() {
-							this.centerMarker1 && this.centerMarker1.setMap(null);
-							var t = {
-								url: o(477),
-								size: new this.google.maps.Size(64, 78),
-								scaledSize: new this.google.maps.Size(32, 39),
-								origin: new this.google.maps.Point(0, 0),
-								anchor: new this.google.maps.Point(0, 0)
-							};
-							this.centerMarker1 = new this.google.maps.Marker({
-								position: new this.google.maps.LatLng(25.041, 121.5379),
-								map: this.map,
-								title: "mackent",
-								icon: t,
-								optimized: !1
-							})
-						},
-						Zoom_in: function() {
-							22 != +this.zoom && (this.map.setZoom(this.zoom + 1), this.zoom = this.zoom + 1, this.restart_icon())
-						},
-						resize: function() {
-							var t = this;
-							clearTimeout(this.mapResizeTimer), this.mapResizeTimer = setTimeout((function() {
-								t.start_map()
-							}), 200)
-						}
 					}
 				},
 				r = (o(478), o(18)),
@@ -607,27 +430,11 @@
 					return o("div", {
 						staticClass: "google-map"
 					}, [o("div", {
-						staticClass: "google-map__map-container"
-					}, [o("div", {
-						ref: "googleMainMap",
-						staticClass: "google-map__map-container__google-main-map"
-					}), t._v(" "), o("div", {
-						staticClass: "google-map__map-container__zoom-box"
-					}, [o("div", {
-						staticClass: "zoom-in zoom-button",
-						on: {
-							click: t.Zoom_in
+						staticClass: "ratio ratio-21x9",
+                        domProps: {
+							innerHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1481.066722192679!2d121.53829498606149!3d25.0396016440585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abd64af3e50f%3A0xb1c139066873baa1!2z6Ie654Gj55W25Luj5paH5YyW5a-m6amX5aC0IEMtTEFC!5e0!3m2!1szh-TW!2stw!4v1737684695747!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 						}
-					}, [o("i", {
-						staticClass: "icon-plus"
-					})]), t._v(" "), o("div", {
-						staticClass: "zoom-out zoom-button",
-						on: {
-							click: t.Zoom_out
-						}
-					}, [o("i", {
-						staticClass: "icon-out"
-					})])])])])
+					})])
 				}), [], !1, null, null, null);
 			e.default = component.exports
 		},

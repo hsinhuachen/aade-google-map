@@ -615,8 +615,7 @@ const {
 } = Object(functions["a" /* default */])();
 /* harmony default export */ var contactvue_type_script_lang_js_ = ({
   components: {
-    BreadCrumb: BreadCrumb["default"],
-    GoogleMap: GoogleMap["default"]
+    BreadCrumb: BreadCrumb["default"]
   },
 
   async asyncData({
