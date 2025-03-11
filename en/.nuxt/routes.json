@@ -1,0 +1,152 @@
+[
+  {
+    "name": "about_en",
+    "path": "/about",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/about.vue",
+    "chunkName": "pages/about",
+    "meta": {
+      "name": "PageAbout",
+      "computed": {},
+      "loading": true
+    },
+    "url": "/about",
+    "_name": "_0b19076f"
+  },
+  {
+    "name": "contact_en",
+    "path": "/contact",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "meta": {
+      "components": {},
+      "methods": {}
+    },
+    "url": "/contact",
+    "_name": "_a91c87fc"
+  },
+  {
+    "name": "courses_en",
+    "path": "/courses",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/courses/index.vue",
+    "chunkName": "pages/courses/index",
+    "meta": {
+      "components": {},
+      "methods": {}
+    },
+    "url": "/courses",
+    "_name": "_14c71a9d"
+  },
+  {
+    "name": "introduction_en",
+    "path": "/introduction",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/introduction.vue",
+    "chunkName": "pages/introduction",
+    "meta": {
+      "components": {},
+      "methods": {}
+    },
+    "url": "/introduction",
+    "_name": "_772236a8"
+  },
+  {
+    "name": "news_en",
+    "path": "/news",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/news/index.vue",
+    "chunkName": "pages/news/index",
+    "meta": {
+      "name": "ArchiveNews",
+      "computed": {},
+      "watch": {
+        "undefined": "$fetch"
+      }
+    },
+    "url": "/news",
+    "_name": "_c87456b8"
+  },
+  {
+    "name": "privacy-policy_en",
+    "path": "/privacy-policy",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/privacy-policy.vue",
+    "chunkName": "pages/privacy-policy",
+    "meta": {
+      "name": "PagePrivacyPolicy",
+      "computed": {},
+      "loading": true
+    },
+    "url": "/privacy-policy",
+    "_name": "_7e21d4b6"
+  },
+  {
+    "name": "projects_en",
+    "path": "/projects",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/projects/index.vue",
+    "chunkName": "pages/projects/index",
+    "meta": {
+      "components": {},
+      "methods": {}
+    },
+    "url": "/projects",
+    "_name": "_35f7928b"
+  },
+  {
+    "name": "search_en",
+    "path": "/search",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/search.vue",
+    "chunkName": "pages/search",
+    "meta": {
+      "components": {},
+      "watch": {},
+      "methods": {}
+    },
+    "url": "/search",
+    "_name": "_49eb8494"
+  },
+  {
+    "name": "courses-slug_en",
+    "path": "/courses/:slug",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/courses/_slug.vue",
+    "chunkName": "pages/courses/_slug",
+    "meta": {
+      "components": {},
+      "methods": {}
+    },
+    "_name": "_13107955"
+  },
+  {
+    "name": "news-slug_en",
+    "path": "/news/:slug",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/news/_slug.vue",
+    "chunkName": "pages/news/_slug",
+    "meta": {
+      "name": "SingleNew",
+      "computed": {}
+    },
+    "_name": "_cbe19948"
+  },
+  {
+    "name": "projects-slug_en",
+    "path": "/projects/:slug",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/projects/_slug.vue",
+    "chunkName": "pages/projects/_slug",
+    "meta": {
+      "components": {},
+      "methods": {}
+    },
+    "_name": "_3440f143"
+  },
+  {
+    "name": "index_en",
+    "path": "/",
+    "component": "/Users/gui/Desktop/case-2022-aade_en/nuxt/pages/index.vue",
+    "chunkName": "pages/index",
+    "meta": {
+      "name": "PageIndex",
+      "components": {},
+      "computed": {},
+      "methods": {},
+      "loading": true
+    },
+    "url": "/",
+    "_name": "_2ad0e234"
+  }
+]

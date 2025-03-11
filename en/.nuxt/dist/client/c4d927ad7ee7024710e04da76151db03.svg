@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+
+</defs>
+<symbol id="i-deco-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 22"><path fill="#595757" fill-rule="evenodd" d="M0 22V0h18.85L0 22zm20.149 0V0H39L20.149 22z"/></symbol>
+<symbol id="i-deco-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 45"><path fill="#595757" fill-rule="evenodd" d="M0 11h10V0H0v11zm0 17h10V17H0v11zm0 17h10V34H0v11z"/></symbol>
+<symbol id="i-deco-3" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 12.5L14 0v25H0l7-12.5zM14 25h14V0l-7 12.5L14 25z" fill="#595757"/></symbol>
+</svg>

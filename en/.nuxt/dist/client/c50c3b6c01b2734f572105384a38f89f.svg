@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+
+</defs>
+<symbol id="i-arrow-next-m" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 16"><path d="M42.412 0l-.699.716L48.156 7H0v1h48.018l-6.313 6.458.715.7L50 7.402 42.412 0z"/></symbol>
+<symbol id="i-arrow-next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 17"><path d="M82.35.642L89.89 8H90v.105l.42.41-.42.428V9h-.055l-7.587 7.763-.716-.7L88.547 9H0V8h88.459l-6.808-6.642.698-.716z"/></symbol>
+<symbol id="i-arrow-prev-m" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 16"><path d="M7.588 0l.699.716L1.844 7H50v1H1.982l6.313 6.458-.715.7L0 7.402 7.588 0z"/></symbol>
+<symbol id="i-arrow-prev" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 17"><path d="M8.07 0L.528 7.357H.42v.106l-.42.41.42.428v.057l.054-.001 7.588 7.763.715-.699-6.905-7.064H90.42v-1H1.96L8.77.716 8.07 0z"/></symbol>
+<symbol id="i-banner-deco-02" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 45"><path fill="#595757" fill-rule="evenodd" d="M0 11h10V0H0v11zm0 17h10V17H0v11zm0 17h10V34H0v11z"/></symbol>
+<symbol id="i-banner-deco-03" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46"><path fill="#595757" fill-rule="evenodd" d="M23.354 23.118h.028C35.874 23.118 46 12.99 46 .5H23.354v22.618zM0 45.5h23.118V22.882H0V45.5z"/></symbol>
+<symbol id="i-case-deco-01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 46"><path fill="#595757" fill-rule="evenodd" d="M23.146 23.118h-.028C10.626 23.118.5 12.99.5.5h22.646v22.618zM46.5 45.5H23.382V22.882H46.5V45.5z"/></symbol>
+<symbol id="i-news-deco-01" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 11"><path fill="#595757" fill-rule="evenodd" d="M34.5.5v10h11V.5h-11zm-17 0v10h11V.5h-11zM.5.5v10h11V.5H.5z"/></symbol>
+</svg>

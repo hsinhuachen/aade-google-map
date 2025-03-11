@@ -1,0 +1,95 @@
+{
+  "DropDown": {
+    "description": "Auto imported from components/DropDown.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "MainMenu": {
+    "description": "Auto imported from components/MainMenu.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/Menu.vue"
+  },
+  "Pagination": {
+    "description": "Auto imported from components/Pagination.vue"
+  },
+  "CardArticleCard": {
+    "description": "Auto imported from components/Card/ArticleCard.vue"
+  },
+  "CardImage": {
+    "description": "Auto imported from components/Card/Image.vue"
+  },
+  "CardInfo": {
+    "description": "Auto imported from components/Card/Info.vue"
+  },
+  "CardMemberCard": {
+    "description": "Auto imported from components/Card/MemberCard.vue"
+  },
+  "BlocksArticleAuthor": {
+    "description": "Auto imported from components/Blocks/ArticleAuthor.vue"
+  },
+  "BlocksArticleBigImage": {
+    "description": "Auto imported from components/Blocks/ArticleBigImage.vue"
+  },
+  "BlocksArticleBigNav": {
+    "description": "Auto imported from components/Blocks/ArticleBigNav.vue"
+  },
+  "BlocksArticleIntro": {
+    "description": "Auto imported from components/Blocks/ArticleIntro.vue"
+  },
+  "BlocksArticleNav": {
+    "description": "Auto imported from components/Blocks/ArticleNav.vue"
+  },
+  "BlocksArticlePhotoWall": {
+    "description": "Auto imported from components/Blocks/ArticlePhotoWall.vue"
+  },
+  "BlocksArticleTextBlock": {
+    "description": "Auto imported from components/Blocks/ArticleTextBlock.vue"
+  },
+  "BlocksArticleVideo": {
+    "description": "Auto imported from components/Blocks/ArticleVideo.vue"
+  },
+  "BlocksBreadCrumb": {
+    "description": "Auto imported from components/Blocks/BreadCrumb.vue"
+  },
+  "BlocksFeaturedArticle": {
+    "description": "Auto imported from components/Blocks/FeaturedArticle.vue"
+  },
+  "BlocksGallerySlide": {
+    "description": "Auto imported from components/Blocks/GallerySlide.vue"
+  },
+  "BlocksGoogleMap": {
+    "description": "Auto imported from components/Blocks/GoogleMap.vue"
+  },
+  "BlocksParallaxGallery": {
+    "description": "Auto imported from components/Blocks/ParallaxGallery.vue"
+  },
+  "BlocksSlideShow": {
+    "description": "Auto imported from components/Blocks/SlideShow.vue"
+  },
+  "ButtonDark": {
+    "description": "Auto imported from components/Button/Dark.vue"
+  },
+  "ButtonLight": {
+    "description": "Auto imported from components/Button/Light.vue"
+  },
+  "ButtonNuxtLinkButton": {
+    "description": "Auto imported from components/Button/NuxtLinkButton.vue"
+  },
+  "LoadingAjax": {
+    "description": "Auto imported from components/Loading/Ajax.vue"
+  },
+  "LoadingAnimation": {
+    "description": "Auto imported from components/Loading/Animation.vue"
+  },
+  "LoadingDefault": {
+    "description": "Auto imported from components/Loading/Default.vue"
+  }
+}
